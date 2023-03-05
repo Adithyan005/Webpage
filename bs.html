@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="irctc.png">
+  <title>IRCTC Next Generation e-ticketing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+body{
+	background-color:yellow;
+}
+</style>
+</head>
+
+<body>
+  
+  <ul class="nav justify-content-center navbar bg-danger ">
+    <li class="nav-item">
+      <a class="nav-link" href="#"><img src="irctc.png" height=''60" width="60">IRCTC Exclusive</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Trains</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Buses</a>
+</li>
+  <li class="nav-item">
+<a class="nav-link" href="#">Flights</a>
+    </li>
+  <li class="nav-item">
+<a class="nav-link" href="#">Hotels</a>
+</li>
+  <li class="nav-item">
+<a class="nav-link" href="#">Holidays</a>
+</li>
+  <li class="nav-item">
+<a class="nav-link" href="#">Meals</a>
+</li>
+  <li class="nav-item">
+<a class="nav-link" href="#">Promotions</a>
+</li>
+  <li class="nav-item">
+<a class="nav-link" href="#">More</a>
+</li>
+  </ul>
+
+<form action="/action_page.php">
+  <div class="form-check mb-7 mt-6">
+    <label for="slct" class="form-label" style="font-size:26pt; font-family:Cambria;"><b><i>From</b></i></label>
+ 	<select class="form-select">
+<option>Salem</option>
+<option>Coimbatore</option>
+<option>Chennai</option>
+<option>Goa</option>
+<option>Banglore</option>
+</select><br><br>
+  </div>
+  <div class="form-check mb-7mt-6">
+    <label for="pwd" class="form-label" style="font-size:26pt; font-family:Cambria;"><b><i>To</b></i></label>
+    <select class="form-select">
+<option>Salem</option>
+<option>Coimbatore</option>
+<option>Chennai</option>
+<option>Goa</option>
+<option>Banglore</option>
+</select><br><br>
+  </div>
+  <div class="form-check mb-7 mt-6">
+    <label class="form-check-label" style="font-size:26pt; font-family:Cambria;"><b><i>Choose</b></i></label><br>
+<select class="form-select">
+<option>GENERAL</option>
+<option>LADIES</option>
+<option>LOWER BIRTH/SR.CITIZEN</option>
+<option>TATKAL</option>
+<option>PREMIUM TATKAL</option>
+</select><br><br>
+  </div>
+<div class="form-check mb-7 mt-6">
+<label class="form-label" style="font-size:26pt; font-family:Cambria;"><b><i>Class</b></i></label>
+<select class="form-select">
+<option>Sleeping</option>
+<option>Sitting</option>
+<option>AC 1 Class</option>
+<option>AC 2 Tier</option>
+<option>AC 3 Tier</option>
+</select><br><br>
+</div>
+
+<div class="form-check mb-7 mt-6">
+<label class="date"  style="font-size:26pt; font-family:Cambria;"><b><i>Date</b></i></label>
+<input type="date" name="dt">
+</div><br><br>
+
+<div class="form-check mb-7 mt-6">
+<input type="checkbox" class="form-check-input">
+<label class="chk" style="font-size:20pt; font-family:calibri;">Person With Disability Concession</label>
+</div>
+
+<div class="form-check mb-7 mt-6">
+<input type="checkbox" class="form-check-input">
+<label class="chk" style="font-size:20pt; font-family:calibri;">Train with Available Berth</label>
+</div>
+
+<div class="form-check mb-7 mt-6">
+<input type="checkbox" class="form-check-input">
+<label class="chk" style="font-size:20pt; font-family:calibri;">Flexible with Date</label>
+</div>
+
+<div class="form-check mb-7 mt-6">
+<input type="checkbox" class="form-check-input">
+<label class="chk" style="font-size:20pt; font-family:calibri;">Railway Pass Concession</label>
+</div><br><br>
+  <center><button type="submit" class="btn btn-primary">Submit</button></center><br><br>
+</body>
+</html>
